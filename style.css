@@ -1,0 +1,15 @@
+ul {
+  list-style-type: none;
+}
+
+.udemy-wrapper {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
