@@ -3,13 +3,45 @@ ul {
 }
 
 .udemy-wrapper {
-    background: black;
-    display: flex;
-    justify-content: space-around;
+  background: black;
+  display: flex;
+  justify-content: space-around;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.card-container{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 275px;
+  height: 330px;
+  border: 1px solid blue;
+  background: rgba(246, 246, 247, 0.452);
+  /* margin-top: 20px;
+  margin-left:30px;
+  margin-bottom: 40px; */
+  margin : 10px 30px 40px
+}
+
+.card p{
+  color: black;
+  margin: 0;
+  padding: 18px;
+}
+
+.card button {
+  background: #0000ff78;
+    padding: 6px 33px;
     color: white;
+    font-size: 18px;
+    margin-left: 101px;
 }
